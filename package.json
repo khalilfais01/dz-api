@@ -1,8 +1,12 @@
 {
   "name": "dz-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library for interacting with my API",
-  "main": "MyApi.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khalilfais01/dz-api"
+  },
+  "main": "./components/Api.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +27,21 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "homepage": "https://www.npmjs.com/package/dz-api",
+  "bugs": {
+    "url": "https://github.com/khalilfais01/dz-api/issues"
+  },
+  "contributors": [
+    {
+      "name": "Khalil Djaariri",
+      "email": "khalildjaariri@gmail.com",
+      "url": "https://github.com/khalilfais01",
+      "username": "khalilfais01"
+    }
+  ],
+  "scripts": {
+    "start": "node MyApi.js",
+    "test": "jest"
   }
 }
